@@ -1,0 +1,79 @@
+body{
+    background-color:#C29E81;
+    color:black;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.homepage{
+    background-image: url(./slider-01_dc6e41ba-f9f4-48fd-8ebf-115def00159c_1903x950.jpg);
+    background-size: cover;
+    display: flex;
+    width:100%;
+    padding: 50px;
+    height:350px;
+    color: white;
+}
+button{
+    color: #C29E81;
+}
+.aboutus{
+    flex-direction: row;
+    gap: 10px;
+    display:flex;
+    padding:30px;
+    height:600px;
+    width:900;
+}
+.aboutuscontent{
+    padding:30px;
+    font-size: 160%;
+    color: beige;
+}
+.bestproductscontent{
+    padding:40px;
+    display:flex;
+    text-align: center;
+}
+.bestproductscontainer{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+    display:flex;
+    padding:200px;
+    align-items: center;
+}
+.productscontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    height:300px;
+    width:300px;
+}
+
+
+
+
+
+
+
